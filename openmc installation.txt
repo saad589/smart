@@ -1,0 +1,44 @@
+OpenMC cleanest setup - SI
+==========================
+Open terminal and change to you desired directory where you want OpneMC installed
+I am gping to install it in /mnt/c 
+
+$ cd /mnt/c
+
+$ sudo apt-get install g++ cmake libhdf5-dev libpng-dev libomp-dev libomp5 mpich libmpich-dev git -y
+$ git clone --recurse-submodules https://github.com/openmc-dev/openmc.git
+$ cd openmc
+$ git status
+$ git checkout develop
+$ mkdir build && cd build
+$ cmake -Dopenmp=on ..
+$ make
+
+$ sudo ln -s /mnt/c/openmc/build/bin/openmc /usr/bin/openmc
+$ cd /mnt/c
+$ wget https://anl.box.com/shared/static/9igk353zpy8fn9ttvtrqgzvw1vtejoz6.xz
+$ tar xf 9igk353zpy8fn9ttvtrqgzvw1vtejoz6.xz
+
+$ nano ~/.bashrc
+$ export OPENMC_CROSS_SECTIONS="/mnt/b/endfb80_hdf5/cross_sections.xml"
+$ source ~/.bashrc
+
+$ sudo apt install python3-pip python3-dev
+$ sudo -H pip3 install --upgrade pip
+
+$ cd /mnt/c/openmc 
+
+$ sudo pip install numpy
+$ sudo pip install .
+$ sudo pip install vtk 
+
+$ sudo pip install jupyter
+
+Create another directory called "workspace" to store your notebooks/input files
+
+$ mkdir /mnt/c/workspace
+$ cd /mnt/c/workspace
+
+$ jupyter notebook
+
+copy-paste the URL in your web browser.
