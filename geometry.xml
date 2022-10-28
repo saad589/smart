@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="57" material="67" region="-45" universe="37" />
+  <cell id="58" material="void" region="-46 45" universe="37" />
+  <cell id="59" material="76" region="-47 46" universe="37" />
+  <cell id="60" material="77" region="47" universe="37" />
+  <cell id="65" material="72" region="-48" universe="39" />
+  <cell id="66" material="void" region="-49 48" universe="39" />
+  <cell id="67" material="76" region="-50 49" universe="39" />
+  <cell id="68" material="77" region="50" universe="39" />
+  <cell id="69" material="71" region="-48" universe="40" />
+  <cell id="70" material="void" region="-49 48" universe="40" />
+  <cell id="71" material="76" region="-50 49" universe="40" />
+  <cell id="72" material="77" region="50" universe="40" />
+  <cell id="73" material="void" region="-51" universe="41" />
+  <cell id="74" material="76" region="-52 51" universe="41" />
+  <cell id="75" material="77" region="52" universe="41" />
+  <cell id="76" material="77" universe="43" />
+  <cell id="77" material="77" universe="45" />
+  <cell id="78" material="77" universe="47" />
+  <cell fill="42" id="79" region="53 -54 55 -56" universe="48" />
+  <cell fill="44" id="80" region="53 -54 55 -56" universe="49" />
+  <cell fill="46" id="81" region="53 -54 55 -56" universe="50" />
+  <cell id="82" material="void" region="53 -54 55 -56" universe="51" />
+  <cell id="83" material="77" universe="53" />
+  <cell fill="52" id="84" region="57 -58 59 -60 62 -61" universe="54" />
+  <lattice id="42">
+    <pitch>1.26 1.26</pitch>
+    <outer>43</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.71 -10.71</lower_left>
+    <universes>
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 
+37 37 39 37 39 37 37 39 37 39 37 37 39 37 39 37 37 
+37 39 37 37 37 41 37 37 41 37 37 37 41 37 37 39 37 
+37 37 37 41 37 37 37 37 37 37 37 37 37 41 37 37 37 
+37 39 37 37 40 37 37 40 37 40 37 37 40 37 37 39 37 
+37 37 41 37 37 41 37 37 41 37 37 41 37 37 41 37 37 
+37 37 37 37 37 37 37 37 39 37 37 37 37 37 37 37 37 
+37 39 37 37 40 37 37 37 37 37 37 37 40 37 37 39 37 
+37 37 41 37 37 41 39 37 41 37 39 41 37 37 41 37 37 
+37 39 37 37 40 37 37 37 37 37 37 37 40 37 37 39 37 
+37 37 37 37 37 37 37 37 39 37 37 37 37 37 37 37 37 
+37 37 41 37 37 41 37 37 41 37 37 41 37 37 41 37 37 
+37 39 37 37 40 37 37 40 37 40 37 37 40 37 37 39 37 
+37 37 37 41 37 37 37 37 37 37 37 37 37 41 37 37 37 
+37 39 37 37 37 41 37 37 41 37 37 37 41 37 37 39 37 
+37 37 39 37 39 37 37 39 37 39 37 37 39 37 39 37 37 
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 </universes>
+  </lattice>
+  <lattice id="44">
+    <pitch>1.26 1.26</pitch>
+    <outer>45</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.71 -10.71</lower_left>
+    <universes>
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 
+37 37 37 39 37 37 37 37 37 37 37 37 37 39 37 37 37 
+37 37 37 37 37 41 39 37 41 37 39 41 37 37 37 37 37 
+37 39 37 41 37 37 37 37 37 37 37 37 37 41 37 39 37 
+37 37 37 37 40 37 37 37 37 37 37 37 40 37 37 37 37 
+37 37 41 37 37 41 37 37 41 37 37 41 37 37 41 37 37 
+37 37 39 37 37 37 39 37 37 37 39 37 37 37 39 37 37 
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 
+37 37 41 37 37 41 37 37 41 37 37 41 37 37 41 37 37 
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 
+37 37 39 37 37 37 39 37 37 37 39 37 37 37 39 37 37 
+37 37 41 37 37 41 37 37 41 37 37 41 37 37 41 37 37 
+37 37 37 37 40 37 37 37 37 37 37 37 40 37 37 37 37 
+37 39 37 41 37 37 37 37 37 37 37 37 37 41 37 39 37 
+37 37 37 37 37 41 39 37 41 37 39 41 37 37 37 37 37 
+37 37 37 39 37 37 37 37 37 37 37 37 37 39 37 37 37 
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 </universes>
+  </lattice>
+  <lattice id="46">
+    <pitch>1.26 1.26</pitch>
+    <outer>47</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.71 -10.71</lower_left>
+    <universes>
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 
+37 37 37 39 37 37 39 37 37 37 39 37 37 39 37 37 37 
+37 37 37 37 37 41 37 37 41 37 37 41 37 37 37 37 37 
+37 39 37 41 37 37 37 37 37 37 37 37 37 41 37 39 37 
+37 37 37 37 37 37 39 37 37 37 39 37 37 37 37 37 37 
+37 37 41 37 37 41 37 37 41 37 37 41 37 37 41 37 37 
+37 39 37 37 39 37 37 37 40 37 37 37 39 37 37 39 37 
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 
+37 37 41 37 37 41 40 37 41 37 40 41 37 37 41 37 37 
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 
+37 39 37 37 39 37 37 37 40 37 37 37 39 37 37 39 37 
+37 37 41 37 37 41 37 37 41 37 37 41 37 37 41 37 37 
+37 37 37 37 37 37 39 37 37 37 39 37 37 37 37 37 37 
+37 39 37 41 37 37 37 37 37 37 37 37 37 41 37 39 37 
+37 37 37 37 37 41 37 37 41 37 37 41 37 37 37 37 37 
+37 37 37 39 37 37 39 37 37 37 39 37 37 39 37 37 37 
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 </universes>
+  </lattice>
+  <lattice id="52">
+    <pitch>21.4173 21.4173</pitch>
+    <outer>53</outer>
+    <dimension>9 9</dimension>
+    <lower_left>-96.3779 -96.3779</lower_left>
+    <universes>
+51 51 51 48 49 48 51 51 51 
+51 51 49 49 49 49 49 51 51 
+51 49 49 50 50 50 49 49 51 
+48 49 50 50 50 50 50 49 48 
+49 49 50 50 50 50 50 49 49 
+48 49 50 50 50 50 50 49 48 
+51 49 49 50 50 50 49 49 51 
+51 51 49 49 49 49 49 51 51 
+51 51 51 48 49 48 51 51 51 </universes>
+  </lattice>
+  <surface coeffs="0.0 0.0 0.4096" id="45" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.41875" id="46" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.475" id="47" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.43305" id="48" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.4369" id="49" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.48385" id="50" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.5615" id="51" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.612" id="52" type="z-cylinder" />
+  <surface coeffs="-10.70865" id="53" name="minimum x" type="x-plane" />
+  <surface coeffs="10.70865" id="54" name="maximum x" type="x-plane" />
+  <surface coeffs="-10.70865" id="55" name="minimum y" type="y-plane" />
+  <surface coeffs="10.70865" id="56" name="maximum y" type="y-plane" />
+  <surface boundary="vacuum" coeffs="-96.37785000000001" id="57" name="minimum x" type="x-plane" />
+  <surface boundary="vacuum" coeffs="96.37785000000001" id="58" name="maximum x" type="x-plane" />
+  <surface boundary="vacuum" coeffs="-96.37785000000001" id="59" name="minimum y" type="y-plane" />
+  <surface boundary="vacuum" coeffs="96.37785000000001" id="60" name="maximum y" type="y-plane" />
+  <surface boundary="vacuum" coeffs="100" id="61" type="z-plane" />
+  <surface boundary="vacuum" coeffs="-100" id="62" type="z-plane" />
+</geometry>

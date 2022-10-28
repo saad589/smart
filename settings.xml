@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <run_mode>eigenvalue</run_mode>
+  <particles>100000</particles>
+  <batches>200</batches>
+  <inactive>100</inactive>
+  <output>
+    <summary>true</summary>
+    <tallies>true</tallies>
+  </output>
+  <mesh id="4">
+    <dimension>10 10 10</dimension>
+    <lower_left>-96.37785000000001 -96.37785000000001 -100.0</lower_left>
+    <upper_right>96.37785000000001 96.37785000000001 100.0</upper_right>
+  </mesh>
+  <entropy_mesh>4</entropy_mesh>
+</settings>
