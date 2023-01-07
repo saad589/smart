@@ -24,8 +24,10 @@ This will execute the default simulation defined in the `.xml` files. You can mo
 
 The results of the simulation will be written to the `statepoint.{n}.h5` and `summary.h5` files, where `{n}` is the current batch number. You can use the `openmc.plot_geometry()` and o`penmc.plot_flat_source()` functions to visualize the geometry and energy distribution of the simulated SMART reactor core.
 
+The following is a whole core x-y plot of the SMART model: 
+
 ![SMART Core](/smart_xy_plot.png "SMART Core")
-*SMART Core*
+*smart_xy_plot.png*
 
 ## Additional resources
 For more information on the SMART reactor, please visit the [KAERI website](https://www.kaeri.re.kr/eng/rnd/rd_rd_01.jsp).
