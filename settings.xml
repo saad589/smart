@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <settings>
   <run_mode>eigenvalue</run_mode>
-  <particles>10000</particles>
-  <batches>100</batches>
-  <inactive>20</inactive>
+  <particles>1000</particles>
+  <batches>10</batches>
+  <inactive>2</inactive>
   <output>
     <summary>true</summary>
     <tallies>true</tallies>
